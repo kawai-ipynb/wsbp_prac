@@ -21,12 +21,12 @@ public class ChatPage extends WebPage {
     private IChatService chatService;
 
     public ChatPage() {
-        List<ChatMessage> chatMessages = chatService.getAllChatMessages();
+        var chatMessages = Model.ofList(chatService.getAllChatMessages());        //List<ChatMessage> chatMessages = chatService.getAllChatMessages();
 
-        ListView<ChatMessage> chatListView = new ListView<>("chatMessages", chatMessages) {
+        var chatListView = new ListView<>("chatMessages", chatMessages) {
             @Override
             protected void populateItem(ListItem<ChatMessage> item) {
-                ChatMessage message = item.getModelObject();
+                var message = item.getModelObject();
                 item.add(new Label("userName", Model.of(message.getUserName())));
                 item.add(new Label("message", Model.of(message.getMessageBody())));
                 item.add(new Label("createdAt", Model.of(message.getCreatedAt().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")))));
