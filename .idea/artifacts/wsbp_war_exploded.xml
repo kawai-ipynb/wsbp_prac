@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="wsbp:war exploded">
-    <output-path>$PROJECT_DIR$/wsbp/target/wsbp-20240317-151650</output-path>
+    <output-path>$PROJECT_DIR$/wsbp/target/wsbp-20240324-143146</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -73,7 +73,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/wsbp/target/wsbp-20240317-151650/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/wsbp/target/wsbp-20240324-143146/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="wsbp/web/ウェブ" />
     </root>
