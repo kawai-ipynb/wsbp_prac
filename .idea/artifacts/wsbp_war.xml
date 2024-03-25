@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="wsbp-20240324-143146.war">
+    <root id="archive" name="wsbp-20240325-122424.war">
       <element id="artifact" artifact-name="wsbp:war exploded" />
     </root>
   </artifact>

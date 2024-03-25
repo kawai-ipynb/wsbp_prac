@@ -9,5 +9,13 @@
       <jdbc-url>jdbc:h2:~/h2db/wsbp_prac;Mode=PostgreSQL;AUTO_SERVER=TRUE;;MV_STORE=false</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="wsbp_prac@localhost" uuid="ffeed107-670c-445a-9e9b-645b5ff30f30">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/wsbp_prac</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

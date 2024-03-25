@@ -42,12 +42,10 @@
 
 		</dependency>
 
-		<!-- データベース（H2DB）を使う-->
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
-
 		</dependency>
 
 		<!-- Spring-Bootの開発用ツールを使う -->

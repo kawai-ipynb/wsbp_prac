@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="wsbp:war exploded">
-    <output-path>$PROJECT_DIR$/wsbp/target/wsbp-20240324-143146</output-path>
+    <output-path>$PROJECT_DIR$/wsbp/target/wsbp-20240325-122424</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -67,13 +67,14 @@
           <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:4.0.3" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.3.30" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.3.30" />
-          <element id="library" level="project" name="Maven: com.h2database:h2:2.1.214" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.3.8" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.5.0" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-devtools:2.7.17" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.7.17" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/wsbp/target/wsbp-20240324-143146/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/wsbp/target/wsbp-20240325-122424/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="wsbp/web/ウェブ" />
     </root>
